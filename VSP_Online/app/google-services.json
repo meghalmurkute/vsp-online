@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "752052136496",
+    "firebase_url": "https://vsp-online-5bf39.firebaseio.com",
+    "project_id": "vsp-online-5bf39",
+    "storage_bucket": "vsp-online-5bf39.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:752052136496:android:f7f4f153aa47c078",
+        "android_client_info": {
+          "package_name": "com.example.meghal.vsp_online"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "752052136496-fsp3dlkq0c8mmr58gqhbqkm6snok4cvj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyABwqJIQNgUaqJbZ5bjDwmus1yzBlSt6dQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

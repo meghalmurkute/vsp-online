@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_shop"
+            android:icon="@drawable/shop1"
+            android:title="Shop" />
+        <item
+            android:icon="@drawable/logo"
+            android:title="My Order"
+            android:id="@+id/nav_myorder" />
+        <item
+            android:id="@+id/nav_tarrif"
+            android:icon="@drawable/icon_21"
+            android:title="Tariff" />
+        <item
+            android:id="@+id/nav_setting"
+            android:icon="@drawable/ic_menu_manage"
+            android:title="Setting" />
+        <item android:title="Communicate">
+            <menu>
+                <item android:title="Terms and condition"
+                    android:id="@+id/tc" />
+                <item
+                    android:id="@+id/nav_contact"
+                    android:icon="@drawable/contact_us"
+                    android:title="Contact us" />
+                <item
+                    android:id="@+id/nav_share"
+                    android:showAsAction="ifRoom"
+                    android:icon="@drawable/ic_menu_share"
+                    android:title="Share"
+                    android:actionProviderClass="android.widget.ShareActionProvider"/>
+            </menu>
+        </item>
+    </group>
+
+</menu>
